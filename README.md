@@ -17,6 +17,22 @@ The function uses a recursive approach to check the BST property for each node. 
 
 ## Usage
 
+To use this program, follow the steps below:
+
+1. Clone this repository to your local machine using
+```Bash
+git clone https://github.com/Reddragon300/valid-bst-checker.git
+```
+3. Navigate to the project directory using
+```bash
+cd valid-bst-checker
+```
+5. Open the `binary_tree_bst_checker.py` file in your preferred Python editor or IDE.
+6. Scroll down to the test cases section and modify or add your own test cases if desired.
+7. Run the Python script.
+```bash
+$ python binary_tree_bst_checker.py
+```
 To test the program, several test cases have been included:
 
 1. Test Case 1: A valid BST
@@ -27,23 +43,18 @@ To test the program, several test cases have been included:
 6. Test Case 6: A tree with negative values (valid BST)
 7. Test Case 7: A tree with duplicate values (invalid BST)
 
-Each test case creates a binary tree with specific values and structure. The `is_valid_bst` function is then called on each tree, and the result is printed along with a description of whether the binary tree is a valid binary search tree or not.
+- The output will be displayed in the console, showing the test case details and the result. Each test case will indicate whether the binary tree is a valid binary search tree or not.
+- Feel free to modify the test cases or explore the program further to suit your needs. You can also use this program as a reference or starting point for your own projects.
 
-Feel free to modify the test cases or add your own to further explore the functionality of the program.
-
-## Running the Program
-
-To run the program, you can simply execute the Python script. Ensure that you have Python installed on your system. The output will be displayed in the console, showing the test case details and the result.
-
-```bash
-$ python binary_tree_bst_checker.py
-```
-Please note that the program uses Python 3 syntax.
+## Requirments:
+- Python 3
+Please ensure that you have Python installed on your system before running the program.
 
 This program demonstrates an implementation to check if a binary tree is a valid binary search tree (BST) using Python. It showcases a recursive approach to validate the binary search tree property for each node in the tree.
 
-Feel free to use this program as a reference or starting point for your own projects.
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to submit a pull request.
 
-If you have any questions or suggestions, please feel free to reach out.
+If you have any questions or need further assistance, please don't hesitate to reach out.
 
 Happy coding!
